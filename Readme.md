@@ -1,36 +1,33 @@
 
-````markdown
 # News Assistant Backend
 
-Backend for **News Assistant**, a chatbot powered by AI with RAG (Retrieval-Augmented Generation). Handles chat sessions, embeddings, Redis caching, and API communication with the frontend.
-
----
+Backend for News Assistant, a chatbot powered by AI with RAG (Retrieval-Augmented Generation). Handles chat sessions, embeddings, Redis caching, and API communication with the frontend.
 
 ## Tech Stack
 
-- **Node.js & Express** – Backend server  
-- **Redis** – Session storage & caching  
-- **Vector Storage / Embeddings** – Pinecone / Jina / llama(groq cloud)  
-- **Frontend Communication** – REST API + WebSocket  
-- **Other Tools** – dotenv, nodemon, cors  
+- Node.js & Express – Backend server  
+- Redis – Session storage & caching  
+- Vector Storage / Embeddings – Pinecone / Jina / llama(groq cloud)  
+- Frontend Communication – REST API + WebSocket  
+- Other Tools – dotenv, nodemon, cors  
 
----
 
-## Setup Instructions
 
-1. **Clone the repository**
+# Setup Instructions
 
-```bash
+1. Clone the repository
+
+
 git clone https://github.com/beingzuhairkhan/rag-chatbot-backend.git
-````
 
-2. **Install dependencies**
 
-```bash
+2. Install dependencies
+
+
 npm install
-```
 
-3. **Set environment variables** in `.env`:
+
+3. Set environment variables in `.env`:
 
 ```env
 PORT=3001

@@ -1,4 +1,4 @@
-
+Demo Video : https://drive.google.com/file/d/16G8gjup-pZ0vh1Szaz1LuLavyTUmIQa7/view?usp=drive_link
 # News Assistant Backend
 
 Backend for News Assistant, a chatbot powered by AI with RAG (Retrieval-Augmented Generation). Handles chat sessions, embeddings, Redis caching, and API communication with the frontend.

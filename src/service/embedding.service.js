@@ -4,7 +4,7 @@ dotenv.config();
 
 const API_URL = "https://api.jina.ai/v1/embeddings";
 const API_KEY = process.env.JINA_API_KEY;
-const MODEL = "jina-embeddings-v2-base-en";
+const MODEL = "jina-embeddings-v4";
 
 
 export const generateEmbeddings = async (texts) => {
